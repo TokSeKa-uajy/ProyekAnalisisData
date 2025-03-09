@@ -78,7 +78,7 @@ holiday_byHour_df = create_holiday_byHour_df(main_hour_df)
 byweather_df = create_bywaether_df(main_hour_df)
 
 # Menampilkan judul
-st.header("Dashboard Penjualan Sepeda")
+st.header("Dashboard Rental Sepeda")
 
 # Menampilkan grafik total perentalan dalam bulanan
 st.subheader('Monthly Orders')
